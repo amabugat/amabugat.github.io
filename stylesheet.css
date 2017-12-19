@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+
+body{
+    text-align: center;
+}
+
+#Nametitle{
+    margin:0;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3.5rem;
+}
+
+#Titlesubtext{
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.home-hero{
+    background-position: bottom;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Minimal-HD-Wallpapers-For-Desktop.png');
+    padding: 20em 0;
+    background-repeat: no-repeat;
+/*    background-size: 100% ;*/
+    background-size:cover;
+    color:beige;
+/*    background-attachment: fixed;*/
+}
+
+
+.home-about-textbox{
+    background-color: #2323;
+    padding: 30em; 
+        
+}
+
+
+#Who{
+    margin:0;
+    padding: 1em 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#who-text{
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.parallax--bg{
+    transition: initial;
+}
