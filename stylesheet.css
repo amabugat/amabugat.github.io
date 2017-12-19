@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 
+/*header*/
 
 body{
     text-align: center;
@@ -30,10 +31,10 @@ body{
 /*    background-attachment: fixed;*/
 }
 
-
+/*About me section*/
 .home-about-textbox{
     background-color: #2323;
-    padding: 30em; 
+    padding: 7em; 
         
 }
 
@@ -50,7 +51,20 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
+/*transition*/
 .parallax--bg{
     transition: initial;
 }
+
+/*Skill section*/
+.skills{
+    padding: 10em;
+}
+
+#skillset{
+    padding: 1em;
+}
+
+
+
+
