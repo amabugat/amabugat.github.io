@@ -28,4 +28,6 @@ function parallax() {
       $(this).css('background-position', 'center ' + (( -scroll ) * 0.5) + 'px');
     }
   })
+    
+//    I cant tell if anything changed part 2
 }
