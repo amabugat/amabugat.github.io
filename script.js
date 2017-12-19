@@ -2,6 +2,7 @@ $(window).scroll(function(e) {
   parallax();
 })
 
+
 function parallax() {
   var scroll = $(window).scrollTop();
   var screenHeight = $(window).height();

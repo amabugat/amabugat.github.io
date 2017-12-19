@@ -32,6 +32,12 @@ body{
 }
 
 /*About me section*/
+
+.home-about{
+    padding: 2em;
+    padding-bottom: 15em ;
+}
+
 .home-about-textbox{
     background-color: #2323;
     padding: 7em; 
@@ -58,11 +64,22 @@ body{
 
 /*Skill section*/
 .skills{
-    padding: 10em;
+    padding: 20em 0;
+    background-image: url('https://wallup.net/wp-content/uploads/2016/01/257274-Earth-stars-space-minimalism.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+        
 }
 
 #skillset{
     padding: 1em;
+}
+
+
+/*rando*/
+.rando{
+    padding: 10em;
 }
 
 
