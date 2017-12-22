@@ -18,5 +18,28 @@ function parallax() {
     }
   })
     
-//    I cant tell if anything changed part 2
 }
+
+
+//Fadein Transitions
+
+window.sr = ScrollReveal();
+
+sr.reveal('#Nametitle', {
+    duration: 3000,
+    origin:'top',
+    reset: true
+})
+
+sr.reveal('#Titlesubtext', {
+    duration: 3000,
+    origin:'bottom',
+    reset: true
+})
+
+sr.reveal('.home-about-textbox', {
+    duration: 2000,
+    origin:'top',
+    viewFactor: .2,
+    reset: true
+})

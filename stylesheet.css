@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 
+* {
+    margin: 0;
+    padding: 0;
+}
 /*header*/
 
 body{
@@ -11,13 +15,13 @@ body{
 #Nametitle{
     margin:0;
     font-family: 'Berkshire Swash', cursive;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 #Titlesubtext{
     margin:0;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .home-hero{
@@ -35,7 +39,14 @@ body{
 
 .home-about{
     padding: 2em;
-    padding-bottom: 15em ;
+/*    padding-bottom: 10em ;*/
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 40%;  
+    height: auto;
+    
 }
 
 .home-about-textbox{
@@ -62,10 +73,17 @@ body{
     transition: initial;
 }
 
+/*Filler*/
+.fillerz{
+    background-image: url('https://wallup.net/wp-content/uploads/2016/01/257274-Earth-stars-space-minimalism.jpg');
+    padding: 20em 0;
+}
+
+
 /*Skill section*/
 .skills{
-    padding: 20em 0;
-    background-image: url('https://wallup.net/wp-content/uploads/2016/01/257274-Earth-stars-space-minimalism.jpg');
+    padding: 5em 0;
+/*    background-image: url('https://wallup.net/wp-content/uploads/2016/01/257274-Earth-stars-space-minimalism.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -81,7 +99,5 @@ body{
 .rando{
     padding: 10em;
 }
-
-
 
 
