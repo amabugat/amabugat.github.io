@@ -20,6 +20,11 @@ function parallax() {
     
 }
 
+//Skills 
+$("#hoverLinks").find("a").hover(function () {
+    $("#PortfolioInfo>*").hide()
+        .filter($(this).data("filter")).show()
+})
 
 //Fadein Transitions
 
