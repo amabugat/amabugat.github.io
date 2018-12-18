@@ -1,21 +1,240 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600');
 @import url('https://fonts.googleapis.com/css?family=Cookie');
-@import url('https://fonts.googleapis.com/css?family=Marck+Script');
-@import url('https://fonts.googleapis.com/css?family=Unica+One');
-@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
-@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 
-* {
-    margin: 0;
-    padding: 0;
+
+html, body {
+  height: 100%;
+  margin: 0;
+    box-sizing: border-box;
 }
-/*header*/
 
-body{
+.landing{
+    margin:0;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    background-color: #292929;
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 
 
+#nameTitle{
+    color:white;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0px 0px 0 #000,
+    1px -1px 0 #000,
+    3px 6px  #000,
+    1px 1px  #000;  
+}
+
+#titleSubtext{
+    color: 	#DD4E52;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+.button{
+    
+    display: inline-block;
+    padding: 20px 50px;
+    margin: 20px 0;
+    position: relative;
+    color: #ecf0f1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#button-4{
+    border: 2px solid #DD4E52;
+    color: #DD4E52;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+     position:absolute;
+    top: 100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#button-4:before, #button-4:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+    background-color: #DD4E52;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#button-4:after{
+    top: auto;
+    bottom: 50%;
+}
+
+#button-4:hover{
+    color: #ecf0f1;
+    border: 2px solid white;
+    text-decoration-line: none;
+}
+
+#button-4:hover:before{
+    height: 50%;
+}
+
+#button-4:hover:after{
+    height: 50%;
+}
+
+.fix1{
+   position:absolute;
+    top: 85%;
+    left:25%;
+    transform: translate(-50%,-50%);
+}
+
+.fix2{
+   position:absolute;
+    top: 85%;
+    left:75%;
+    transform: translate(-50%,-50%);
+}
+
+.leftcol {
+   overflow:hidden;
+/*    height: 100vh;*/
+    height: 100px;
+    position: sticky;
+    top:0;
+    
+}
+
+.rightcol {
+   height: 100vh;
+}
+
+.sticky {
+    position: fixed;
+    top:0;
+}
+
+
+.pcc_bg{
+
+    background-color: #DD4E52;
+/*
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+*/
+    
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #F5F7FA;
+  line-height: 1.2;
+}
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+.wrapper {
+/*  width: 100%;*/
+/*  max-width: 600px;*/
+  margin-right: auto;
+  margin-left: auto;
+/*  margin-top: 60px;*/
+  margin-bottom: 200px;
+}
+.content {
+  padding: 0 40px;
+  width: 50%;
+}
+
+.sidebar {
+/*  padding: 20px;*/
+    height:100vh;
+  width: 50%;
+  background-color: #DD4E52;
+  color: white;
+}
+
+#aboutText{
+/*    transform: translate(0%,500%);*/
+    padding-top: 40vh;
+    text-align: center;
+     font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+}
+
+#aboutLine{
+/*    transform: translate(0%,500%);*/
+    padding-top: 10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem; 
+}
+
+#aboutDesc{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem; 
+    padding-top: 10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.content,
+.sidebar {
+  float: left;
+}
+
+
+/* The sticky */
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
