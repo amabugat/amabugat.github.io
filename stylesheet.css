@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600');
-@import url('https://fonts.googleapis.com/css?family=Cookie');
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
-
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Aleo');
+@import url('https://fonts.googleapis.com/css?family=Aleo:400i');
 
 
 html, body {
@@ -149,7 +149,7 @@ html, body {
   box-sizing: inherit;
 }
 body {
-  background-color: #F5F7FA;
+  background-color: white;
   line-height: 1.2;
 }
 /**
@@ -184,11 +184,17 @@ body {
   margin-right: auto;
   margin-left: auto;
 /*  margin-top: 60px;*/
-  margin-bottom: 200px;
+/*  margin-bottom: 200px;*/
 }
 .content {
+  padding: 0px 40px 0px 40px;
+  width: 49%;
+}
+
+.content1 {
   padding: 0 40px;
-  width: 50%;
+  width: 49%;
+  background-color:  #292929;
 }
 
 .sidebar {
@@ -196,6 +202,14 @@ body {
     height:100vh;
   width: 50%;
   background-color: #DD4E52;
+  color: white;
+}
+
+.sidebar1 {
+/*  padding: 20px;*/
+    height:100vh;
+  width: 50%;
+  background-color: white;
   color: white;
 }
 
@@ -218,11 +232,60 @@ body {
 }
 
 #aboutDesc{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Aleo', serif;
     font-size: 1rem; 
     padding-top: 10vh;
     padding-left: 3vh;
     padding-right: 3vh;
+    line-height: 1.5;
+}
+
+#workText{
+/*    transform: translate(0%,500%);*/
+    padding-top: 40vh;
+    text-align: center;
+     font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    color:black;
+}
+
+#workJob{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem; 
+    padding-top: 10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#workLine{
+/*    transform: translate(0%,500%);*/
+    padding-top: 10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem; 
+}
+
+#workDetails{
+    font-family: 'Aleo', serif;
+    padding-left: 3vh;
+    font-size: 1rem; 
+/*    padding-left: 3vh;*/
+    padding-right: 3vh;
+    line-height: 1.5;
+    text-align: left;
+}
+#workDesc{
+    font-family: 'Aleo', serif;
+    padding-top: 7.5vh;
+    font-size: 1rem; 
+/*    padding-left: 3vh;*/
+    padding-right: 3vh;
+    line-height: 1.5;
+    text-align: left;
 }
 
 .content,
@@ -238,3 +301,8 @@ body {
   top: 0;
 }
 
+.sidebar1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
