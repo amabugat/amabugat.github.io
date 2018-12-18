@@ -197,6 +197,12 @@ body {
   background-color:  #292929;
 }
 
+.content2 {
+  padding: 0 40px;
+  width: 49%;
+  background-color:  white;
+}
+
 .sidebar {
 /*  padding: 20px;*/
     height:100vh;
@@ -211,6 +217,14 @@ body {
   width: 50%;
   background-color: white;
   color: white;
+}
+
+.sidebar2 {
+/*  padding: 20px;*/
+    height:100vh;
+  width: 50%;
+  background-color:  #292929;
+/*  color: white;*/
 }
 
 #aboutText{
@@ -228,12 +242,12 @@ body {
     padding-right: 3vh;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem; 
+    font-size: 2.5rem; 
 }
 
 #aboutDesc{
     font-family: 'Aleo', serif;
-    font-size: 1rem; 
+    font-size: 1.2rem; 
     padding-top: 10vh;
     padding-left: 3vh;
     padding-right: 3vh;
@@ -288,6 +302,15 @@ body {
     text-align: left;
 }
 
+#projectText{
+/*    transform: translate(0%,500%);*/
+    padding-top: 40vh;
+    text-align: center;
+     font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    color:white;
+}
+
 .content,
 .sidebar {
   float: left;
@@ -302,6 +325,12 @@ body {
 }
 
 .sidebar1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar2 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
