@@ -36,7 +36,13 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-      #nameTest{
+    #navStyle{
+        font-family: 'Aleo', serif;
+        padding: 50% 0% 50% 0%;
+        font-size: 200%;
+    }
+    
+    #nameTest{
         color:white;
         padding-top: 50%;
         font-size: 60%;
@@ -217,6 +223,10 @@
 /*tablets*/
 @media only screen and (min-width: 600px) {
 
+    #navBlank{
+        display:none;
+    }
+    
     #nameTest{
         color:white;
         padding-top: 20%;
