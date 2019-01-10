@@ -36,194 +36,184 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
+      #nameTest{
+        color:white;
+        padding-top: 50%;
+        font-size: 60%;
+        text-shadow: 0px 0px 0 #000,
+        1px -1px 0 #000,
+        3px 6px  #000,
+        1px 1px  #000;  
+    }
+
+    #titleTest{
+        color: 	#DD4E52;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20%;
+        padding: 5% 20% 5% 20%;
+    }
 
 
-#nameTest{
-    color:white;
-    padding-top: 50%;
-    font-size: 60%;
-    text-shadow: 0px 0px 0 #000,
-    1px -1px 0 #000,
-    3px 6px  #000,
-    1px 1px  #000;  
-}
-
-#titleTest{
-    color: 	#DD4E52;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20%;
-    padding: 5% 20% 5% 20%;
-}
+    .button{
+        font-size: 0;
+    }
 
 
-.button{
-    font-size: 0;
-}
+    .disappear{
+        display:none;
+    }
 
-
-.disappear{
-    display:none;
-}
-
-.leftcol {
-   overflow:hidden;
-/*    he ight: 100vh;*/
-    height: 100px;
-    position: sticky;
-    top:0;
+      #dp{
+        padding:20% 20% 0% 20%;
+    }
     
-}
+    .leftcol {
+       overflow:hidden;
+        height: 100px;
+        position: sticky;
+        top:0;
 
-.rightcol {
-   height: 100vh;
-}
+    }
 
-.sticky {
-    position: fixed;
-    top:0;
-}
+    .rightcol {
+       height: 100vh;
+    }
 
-
-.pcc_bg{
-    background-color: #DD4E52;
-    
-}
-
-
-/* apply a natural box layout model to all elements, but allowing components to change */
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+    .sticky {
+        position: fixed;
+        top:0;
+    }
 
 
-.content {
-  padding: 0px 40px 0px 40px;
-  width: 100%;
-}
+    .pcc_bg{
+        background-color: #DD4E52;
 
-.content1 {
-  padding: 0 40px;
-  width: 100%;
-  background-color:  #292929;
-}
+    }
 
-.content2 {
-  padding: 0 40px;
-  width: 100%;
-  background-color:  white;
-}
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
 
-.sidebar {
-/*  padding: 20px;*/
-    height:100vh;
-  width: 100%;
-  background-color: #DD4E52;
-  color: white;
-}
 
-.sidebar1 {
-/*  padding: 20px;*/
-    height:100vh;
-  width: 100%;
-  background-color: white;
-  color: white;
-}
+    .content {
+      padding: 0px 40px 0px 40px;
+      width: 100%;
+    }
 
-.sidebar2 {
-/*  padding: 20px;*/
-    height:100vh;
-  width: 100%;
-  background-color:  #DD4E52;
-/*  color: white;*/
-}
+    .content1 {
+      padding: 0 40px;
+      width: 100%;
+      background-color:  #292929;
+    }
 
-#aboutText{
-/*    transform: translate(0%,500%);*/
-    padding-top: 40vh;
-    text-align: center;
-     font-family: 'Sacramento', cursive;
-    font-size: 6rem;
-}
+    .content2 {
+      padding: 0 40px;
+      width: 100%;
+      background-color:  white;
+    }
 
-#aboutLine{
-/*    transform: translate(0%,500%);*/
-    padding-top: 10vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 180%; 
-}
+    .sidebar {
+        height:100vh;
+      width: 100%;
+      background-color: #DD4E52;
+      color: white;
+    }
 
-#aboutDesc{
-    font-family: 'Aleo', serif;
-    font-size: 100%; 
-    padding-top: 10vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    line-height: 1.5;
-}
+    .sidebar1 {
+        height:100vh;
+      width: 100%;
+      background-color: white;
+      color: white;
+    }
 
-#workText{
-/*    transform: translate(0%,500%);*/
-    padding-top: 40vh;
-    text-align: center;
-     font-family: 'Sacramento', cursive;
-    font-size: 6rem;
-    color:black;
-}
+    .sidebar2 {
+        height:100vh;
+      width: 100%;
+      background-color:  #DD4E52;
+    }
 
-#workJob{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem; 
-    padding-top: 10vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    line-height: 1.5;
-    text-align: left;
-}
+    #aboutText{
+        padding-top: 40vh;
+        text-align: center;
+         font-family: 'Sacramento', cursive;
+        font-size: 6rem;
+    }
 
-#workLine{
-/*    transform: translate(0%,500%);*/
-    padding-top: 10vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem; 
-}
+    #aboutLine{
+        padding-top: 10vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 180%; 
+    }
 
-#workDetails{
-    font-family: 'Aleo', serif;
-    padding-left: 3vh;
-    font-size: 1rem; 
-/*    padding-left: 3vh;*/
-    padding-right: 3vh;
-    line-height: 1.5;
-    text-align: left;
-}
-#workDesc{
-    font-family: 'Aleo', serif;
-/*    padding-top: 7.5vh;*/
-    font-size: 1rem; 
-/*    padding-left: 3vh;*/
-    padding-right: 3vh;
-    line-height: 1.5;
-    text-align: left;
-}
+    #aboutDesc{
+        font-family: 'Aleo', serif;
+        font-size: 100%; 
+        padding-top: 10vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        line-height: 1.5;
+    }
 
-#projectText{
-/*    transform: translate(0%,500%);*/
-    padding-top: 40vh;
-    text-align: center;
-     font-family: 'Sacramento', cursive;
-    font-size: 6rem;
-    color:white;
-}
+    #workText{
+        padding-top: 40vh;
+        text-align: center;
+         font-family: 'Sacramento', cursive;
+        font-size: 6rem;
+        color:black;
+    }
 
+    #workJob{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem; 
+        padding-top: 10vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    #workLine{
+        padding-top: 10vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem; 
+    }
+
+    #workDetails{
+        font-family: 'Aleo', serif;
+        padding-left: 3vh;
+        font-size: 1rem; 
+        padding-right: 3vh;
+        line-height: 1.5;
+        text-align: left;
+    }
+    #workDesc{
+        font-family: 'Aleo', serif;
+        font-size: 1rem; 
+        padding-right: 3vh;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    #projectText{
+        padding-top: 40vh;
+        text-align: center;
+         font-family: 'Sacramento', cursive;
+        font-size: 6rem;
+        color:white;
+    }
+
+    #blank{
+        padding-bottom: 20%;
+    }
 
 } 
+
 /*tablets*/
 @media only screen and (min-width: 600px) {
 
@@ -302,46 +292,26 @@
         height: 50%;
     }
 
-    .fix1{
-
-    }
-
-    .fix2{
-
-    }
-
     .fix3{
-    /*
-       position:absolute;
-        top: 88%;
-        left:40%;
-        transform: translate(-50%,-50%);
-    */
         color: #DD4E52;
     }
 
     .fix4{
-    /*
-       position:absolute;
-        top: 88%;
-        left:60%;
-        transform: translate(-50%,-50%);
-    */
         color: #DD4E52;
     }
 
     .fix5{
-       position:absolute;
-        top: 40%;
-        left:80%;
-        transform: translate(-50%,-50%);
+        padding-left: 45%;
         color: #DD4E52;
     }
 
-
+    #dp{
+        padding:15% 10% 0% 10%;
+    }
+    
+    
     .leftcol {
        overflow:hidden;
-    /*    height: 100vh;*/
         height: 100px;
         position: sticky;
         top:0;
@@ -357,20 +327,6 @@
         top:0;
     }
 
-
-    .pcc_bg{
-
-        background-color: #DD4E52;
-    /*
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    */
-
-    }
-
-
-    /* apply a natural box layout model to all elements, but allowing components to change */
     *, *:before, *:after {
       box-sizing: inherit;
     }
@@ -394,7 +350,6 @@
     }
 
     .sidebar {
-    /*  padding: 20px;*/
         height:100vh;
       width: 50%;
       background-color: #DD4E52;
@@ -402,7 +357,6 @@
     }
 
     .sidebar1 {
-    /*  padding: 20px;*/
         height:100vh;
       width: 50%;
       background-color: white;
@@ -410,15 +364,12 @@
     }
 
     .sidebar2 {
-    /*  padding: 20px;*/
         height:100vh;
       width: 50%;
       background-color:  #DD4E52;
-    /*  color: white;*/
     }
 
     #aboutText{
-    /*    transform: translate(0%,500%);*/
         padding-top: 40vh;
         text-align: center;
          font-family: 'Sacramento', cursive;
@@ -426,7 +377,6 @@
     }
 
     #aboutLine{
-    /*    transform: translate(0%,500%);*/
         padding-top: 10vh;
         padding-left: 3vh;
         padding-right: 3vh;
@@ -445,7 +395,6 @@
     }
 
     #workText{
-    /*    transform: translate(0%,500%);*/
         padding-top: 40vh;
         text-align: center;
          font-family: 'Sacramento', cursive;
@@ -464,7 +413,6 @@
     }
 
     #workLine{
-    /*    transform: translate(0%,500%);*/
         padding-top: 10vh;
         padding-left: 3vh;
         padding-right: 3vh;
@@ -477,7 +425,6 @@
         font-family: 'Aleo', serif;
         padding-left: 3vh;
         font-size: 1rem; 
-    /*    padding-left: 3vh;*/
         padding-right: 3vh;
         line-height: 1.5;
         text-align: left;
@@ -486,14 +433,12 @@
         font-family: 'Aleo', serif;
         padding-top: 7.5vh;
         font-size: 1rem; 
-    /*    padding-left: 3vh;*/
         padding-right: 3vh;
         line-height: 1.5;
         text-align: left;
     }
 
     #projectText{
-    /*    transform: translate(0%,500%);*/
         padding-top: 40vh;
         text-align: center;
          font-family: 'Sacramento', cursive;
@@ -524,6 +469,10 @@
       position: -webkit-sticky;
       position: sticky;
       top: 0;
+    }
+    
+    #blank{
+        padding-bottom: 20%;
     }
     
 }
@@ -604,48 +553,27 @@
         height: 50%;
     }
 
-    .fix1{
-
-    }
-
-    .fix2{
-
-    }
-
     .fix3{
-    /*
-       position:absolute;
-        top: 88%;
-        left:40%;
-        transform: translate(-50%,-50%);
-    */
         color: #DD4E52;
     }
 
     .fix4{
-    /*
-       position:absolute;
-        top: 88%;
-        left:60%;
-        transform: translate(-50%,-50%);
-    */
+
         color: #DD4E52;
     }
 
     .fix5{
-    /*
-       position:absolute;
-        top: 88%;
-        left:50%;
-        transform: translate(-50%,-50%);
-    */
+        padding-left: 0%;
         color: #DD4E52;
     }
 
-
+    #dp{
+        padding:15% 20% 0% 20%;
+    }
+    
+    
     .leftcol {
        overflow:hidden;
-    /*    height: 100vh;*/
         height: 100px;
         position: sticky;
         top:0;
@@ -662,23 +590,9 @@
     }
 
 
-    .pcc_bg{
-
-        background-color: #DD4E52;
-    /*
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    */
-
-    }
-
-
-    /* apply a natural box layout model to all elements, but allowing components to change */
     *, *:before, *:after {
       box-sizing: inherit;
     }
-
 
     .content {
       padding: 0px 40px 0px 40px;
